@@ -1,0 +1,14 @@
+import random
+allnumbers = []
+for all in range(0, 9999):
+    a = all/1000
+    b = all/100 - 10*a
+    c = all/10 - 100*a - 10*b
+    d = all - 1000*a -100*b -10*c
+    if a != b  and a != c and a != d and b !=c and b != d and c != d:
+        allnumbers.append([a,b,c,d])
+    else:
+        pass
+
+random.shuffle(allnumbers)
+
