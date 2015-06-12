@@ -1,2 +1,2 @@
-# thegame
-the game
+# GuessFourDigits
+GuessFourDigits
