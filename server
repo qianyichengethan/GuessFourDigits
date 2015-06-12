@@ -1,0 +1,21 @@
+import random
+import math
+import time
+print "Test"
+k = 1
+def shengcheng():
+    while k == 1:
+        a = random.randint(0,9)
+        b = random.randint(0,9)
+        c = random.randint(0,9)
+        d = random.randint(0,9)
+        if a != b  and a != c and a != d and b !=c and b != d and c != d:
+            print a,b,c,d
+            break
+        
+
+print "The number has been set"
+
+while True:
+    shengcheng()
+    time.sleep(30)
